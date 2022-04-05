@@ -11,11 +11,11 @@
 ## 
 
  - [Content-Management-Systems-(CMS)](./Content-Management-Systems-(CMS)/)
-   - [Wordpress](./Wordpress/)
+   - [Wordpress](./Content-Management-Systems-(CMS)/Wordpress/)
    
  - [Frameworks](./Frameworks/)
-   - [JoGet](./JoGet/)
-   - [Jolokia](./Jolokia/)
+   - [JoGet](./Frameworks/JoGet/)
+   - [Jolokia](./Frameworks/Jolokia/)
 
  - [Other](./Other/)
-   - [GiTea](./GiTea/)
+   - [GiTea](./Other/GiTea/)
