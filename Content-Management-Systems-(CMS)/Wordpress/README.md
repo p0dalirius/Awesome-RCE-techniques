@@ -4,7 +4,7 @@
 
 e
 
-## Techniques to acheive RCE on Wordpress
+## Techniques to achieve RCE on Wordpress
 
 ### With admin credentials
 
