@@ -7,19 +7,25 @@
   <br>
 </p>
 
-## 
+## Goal of this project
 
-## 
+The goal of this project is to provide an OpenSource knowledge database of all the techniques to achieve Remote Code Execution (RCE) on various applications.
+
+## Technologies
 
  - [Content-Management-Systems-(CMS)](./Content-Management-Systems-(CMS)/)
-   - [Wordpress](./Content-Management-Systems-(CMS)/Wordpress/)
+   + [Wordpress](./Content-Management-Systems-(CMS)/Wordpress/)
    
  - [Frameworks](./Frameworks/)
-   - [JoGet](./Frameworks/JoGet/)
-   - [Jolokia](./Frameworks/Jolokia/)
-   - [Tomcat](./Frameworks/Tomcat/)
+   + [JoGet](./Frameworks/JoGet/)
+   + [Jolokia](./Frameworks/Jolokia/)
+   + [Tomcat](./Frameworks/Tomcat/)
    
  - [Other](./Other/)
-   - [GiTea](./Other/GiTea/)
+   + [GiTea](./Other/GiTea/)
+   + [Jenkins](./Other/Jenkins/)
+   + [LimeSurvey](./Other/LimeSurvey/)
+   
+## Contributors
 
-## 
+Pull requests are welcome. Feel free to open an issue if you want to add other features.
