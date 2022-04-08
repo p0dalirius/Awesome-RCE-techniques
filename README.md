@@ -15,7 +15,8 @@ The goal of this project is to provide an OpenSource knowledge database of all t
 
  - [Content-Management-Systems-(CMS)](./Content-Management-Systems-(CMS)/)
    + [Wordpress](./Content-Management-Systems-(CMS)/Wordpress/)
-   
+   + [Typo3](./Content-Management-Systems-(CMS)/Typo3/)
+     
  - [Frameworks](./Frameworks/)
    + [JoGet](./Frameworks/JoGet/)
    + [Jolokia](./Frameworks/Jolokia/)

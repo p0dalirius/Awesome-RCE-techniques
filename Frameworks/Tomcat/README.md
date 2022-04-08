@@ -8,9 +8,9 @@
 
 ### Generic
 
-  - [Upload an app](./techniques/Upload-an-app.md)
+  - [Upload an app](./techniques/Upload-an-app/README.md)
 
 ### Version specific
 
-  - [CVE-2017- - PUT a jsp file](./techniques/CVE-2017-_-_PUT_a_jsp_file.md)
+  - [CVE-2017-12615 - PUT a jsp file](./techniques/CVE-2017-12615_-_PUT_a_jsp_file/README.md)
 
