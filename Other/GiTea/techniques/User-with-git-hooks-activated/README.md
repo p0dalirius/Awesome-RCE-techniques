@@ -22,17 +22,17 @@ In order to successfully exploit this vulnerability/feature, the target server G
 
 | **Account with "_May create git hooks_" rights activated** |
 |-|
-| ![](./may_create_git_hooks.png) |
+| ![](./imgs/may_create_git_hooks.png) |
 
 From a system administration point of view, the gitea process looks like this before the exploitation :
 
 | **Service status before exploit** |
 |-|
-| ![](./gitea_service_before_exploit.png) |
+| ![](./imgs/gitea_service_before_exploit.png) |
 
 First of all, we need to create a repository on the GiTea web interface, using our account. We create the repository and we go into `Settings -> Git Hooks -> Post Receive Hook`. In this hook you can write a shell script that will be executed after receiving a new commit.
 
-![Post Receive Hook](./post_receive_hook.png)
+![Post Receive Hook](./imgs/post_receive_hook.png)
 
 Now we will create a temporary directory on our attacking machine, and push to the remote repository. It will trigger the `Post Receive Hook` script.
 
@@ -47,13 +47,13 @@ git push -u origin master
 
 After we pushed the commit to the remote repository, it will trigger the `Post Receive Hook` script and we will have a reverse shell!
 
-![Reverse Shell](./gitea_reverse_shell.png)
+![Reverse Shell](./imgs/gitea_reverse_shell.png)
 
 After the exploitation, a system administrator can easily see our detached reverse shell in the child processes of GiTea:
 
 | **Service status after exploit** |
 |-|
-| ![](./gitea_service_after_exploit.png) |
+| ![](./imgs/gitea_service_after_exploit.png) |
 
 ## Exploit tool
 
