@@ -9,4 +9,6 @@ Gitea is a community managed lightweight code hosting solution written in Go. It
 
 ## Techniques to achieve RCE with GiTea
 
+### With user credentials
+
  - [User with git hooks activated](./techniques/User-with-git-hooks-activated/README.md)

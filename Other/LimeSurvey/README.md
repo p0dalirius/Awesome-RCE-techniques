@@ -9,5 +9,5 @@
 
 ### With admin credentials
 
- - [Upload a plugin](./techniques/Upload-a-plugin.md)
+ - [Upload a plugin](./techniques/Upload-a-plugin/README.md)
 
