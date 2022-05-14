@@ -8,4 +8,4 @@ Joget DX is a new and next generation open source low-code platform for faster, 
 
 ### With admin credentials
 
- - [Upload a plugin](./techniques/Upload-a-plugin.md)
+ - [Upload a plugin](./techniques/Upload-a-plugin/README.md)

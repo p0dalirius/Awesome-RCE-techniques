@@ -20,15 +20,11 @@ A [github issue](https://github.com/go-gitea/gitea/pull/13058) was opened and fi
 
 In order to successfully exploit this vulnerability/feature, the target server GiTea version should be between version 1.1.0 and version 1.13, and you need a valid account (username, password) with "_May create git hooks_" rights activated.
 
-| **Account with "_May create git hooks_" rights activated** |
-|-|
-| ![](./imgs/may_create_git_hooks.png) |
+![Account with "_May create git hooks_" rights activated](./imgs/may_create_git_hooks.png)
 
 From a system administration point of view, the gitea process looks like this before the exploitation :
 
-| **Service status before exploit** |
-|-|
-| ![](./imgs/gitea_service_before_exploit.png) |
+![Service status before exploit](./imgs/gitea_service_before_exploit.png)
 
 First of all, we need to create a repository on the GiTea web interface, using our account. We create the repository and we go into `Settings -> Git Hooks -> Post Receive Hook`. In this hook you can write a shell script that will be executed after receiving a new commit.
 
@@ -51,9 +47,7 @@ After we pushed the commit to the remote repository, it will trigger the `Post R
 
 After the exploitation, a system administrator can easily see our detached reverse shell in the child processes of GiTea:
 
-| **Service status after exploit** |
-|-|
-| ![](./imgs/gitea_service_after_exploit.png) |
+![Service status after exploit](./imgs/gitea_service_after_exploit.png)
 
 ## Exploit tool
 

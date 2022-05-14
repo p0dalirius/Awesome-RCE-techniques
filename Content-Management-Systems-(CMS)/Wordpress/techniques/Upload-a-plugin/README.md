@@ -12,7 +12,7 @@ Connect with a user with administrative rights on the Wordpress at [http://TARGE
 
 ![](./imgs/)
 
-Then go on the "Manage plugins" page
+Then go on the "Manage plugins" page.
 
 ![](./imgs/)
 
