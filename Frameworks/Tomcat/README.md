@@ -2,7 +2,7 @@
 
 ## Intro
 
-
+Apache Tomcat is an open-source implementation of the Java Servlet, JavaServer Pages, Java Expression Language and WebSocket technologies. Tomcat provides a "pure Java" HTTP web server environment in which Java code can run.
 
 ## Techniques to achieve RCE with Tomcat
 
