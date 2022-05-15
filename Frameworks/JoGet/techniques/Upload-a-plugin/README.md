@@ -21,7 +21,7 @@ Go to "Manage plugins" page, at http://127.0.0.1:8000/jw/web/console/setting/plu
 
 ![](./imgs/manage_plugins_interface.png)
 
-Then choose the JAR file of the webshell plugin and click on "Upload":
+Compile the webshell plugin or download a release here: https://github.com/p0dalirius/JoGet-plugin-webshell/. Then choose the JAR file of the [webshell application](https://github.com/p0dalirius/JoGet-plugin-webshell) and click on "Upload":
 
 ![](./imgs/upload_a_plugin.png)
 
