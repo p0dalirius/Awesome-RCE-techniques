@@ -18,7 +18,7 @@ Then choose the WAR file of the webshell plugin and click on "Deploy":
 
 And the application is deployed:
 
-![](./.github/webshell_uploaded.png)
+![](./imgs/webshell_uploaded.png)
 
 ### Step 2.1: Executing commands
 
