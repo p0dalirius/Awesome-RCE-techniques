@@ -6,13 +6,13 @@
 
 ## Exploitation
 
-### Step 1: Access the Tomcat manager and upload the webshell plugin
+### Step 1: Access the Tomcat manager and upload the webshell application
 
 First of all, you will need to access the Apache Tomcat `/manager` page at http://127.0.0.1:10080/manager/html, and connect to it with an high privilege account of the Apache Tomcat server.
 
 ![](./imgs/manager.png)
 
-Then choose the WAR file of the webshell plugin and click on "Deploy":
+Compile the webshell application or download a release here: https://github.com/p0dalirius/Tomcat-application-webshell/. Then choose the WAR file of the [webshell application](https://github.com/p0dalirius/Tomcat-application-webshell/) and click on "Deploy":
 
 ![](./imgs/upload_a_plugin.png)
 
@@ -62,9 +62,10 @@ _apt:x:100:65534::/nonexistent:/usr/sbin/nologin
 
 ### Step 3: The interactive console
 
-When your webshell is active, you can now use the interactive [console.py](https://github.com/p0dalirius/Tomcat-plugin-webshell/console.py) to execute commands and download remote files.
+When your webshell is active, you can now use the interactive [console.py](https://github.com/p0dalirius/Tomcat-application-webshell/console.py) to execute commands and download remote files.
 
 https://user-images.githubusercontent.com/79218792/168489455-023b52c5-e8a9-4cd9-96ca-f26c14304236.mp4
 
 ## References
  - https://tomcat.apache.org/
+ - https://github.com/p0dalirius/Tomcat-application-webshell/
