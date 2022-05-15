@@ -11,7 +11,9 @@
 
 ## Goal of this project
 
-The goal of this project is to provide an OpenSource knowledge database of all the techniques to achieve Remote Code Execution (RCE) on various applications.
+The goal of this project is to provide an OpenSource knowledge database of all the techniques to achieve Remote Code Execution (RCE) on various applications. 
+
+All of these techniques also comes with a test environnement (usually a Docker image) for you to train these Remote Code Execution (RCE) techniques.
 
 ## Technologies
 
