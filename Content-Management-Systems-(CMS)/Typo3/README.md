@@ -6,7 +6,5 @@ TYPO3 is a free and open-source Web content management system written in PHP. It
 
 ### With admin credentials
 
- - [Upload a plugin](./techniques/Upload-a-plugin.md)
-
-
-https://www.synacktiv.com/publications/typo3-leak-to-remote-code-execution.html
+ - [Arbitrary deserialisation](./techniques/Arbitrary-deserialisation/README.md)
+ 

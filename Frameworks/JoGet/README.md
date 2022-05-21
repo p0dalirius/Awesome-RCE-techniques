@@ -2,7 +2,7 @@
 
 Joget DX is a new and next generation open source low-code platform for faster, simpler digital transformation (DX)
 
-## Techniques to acheive RCE on JoGet
+## Techniques to achieve RCE on JoGet
 
 ### With admin credentials
 

@@ -1,6 +1,6 @@
 .PHONY: build img
 
-IMGNAME := test_limesurvey_upload_plugin
+IMGNAME := awesome_rce_limesurvey_upload_plugin
 PORT := 10080
 
 all : build

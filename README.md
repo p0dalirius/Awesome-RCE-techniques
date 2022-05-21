@@ -22,9 +22,11 @@ All of these techniques also comes with a test environnement (usually a Docker i
    + [**Typo3**: (1 techniques)](./Content-Management-Systems-(CMS)/Typo3/)
      
  - [Frameworks](./Frameworks/)
+   + [**JBoss**: (1 technique)](./Frameworks/JBoss/)
    + [**JoGet**: (1 technique)](./Frameworks/JoGet/)
    + [**Tomcat**: (2 techniques)](./Frameworks/Tomcat/)
-   
+   + [**WildFly**: (1 technique)](./Frameworks/WildFly/)
+
  - [Other](./Other/)
    + [**GiTea**: (1 technique)](./Other/GiTea/)
    + [**Jenkins**: (1 technique)](./Other/Jenkins/)

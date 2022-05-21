@@ -1,4 +1,4 @@
-# Apache Tomcat - Upload an app
+# Apache Tomcat - Deploy an Application
 
 ## Requirements
 

@@ -1,6 +1,6 @@
 .PHONY: build img
 
-IMGNAME := test_jenkins_script
+IMGNAME := awesome_rce_jenkins_script_console
 
 all : build
 

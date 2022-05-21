@@ -6,7 +6,7 @@ Apache Tomcat is an open-source implementation of the Java Servlet, JavaServer P
 
 ### Generic
 
-  - [Upload an app](./techniques/Upload-an-app/README.md)
+  - [Deploy an application](./techniques/Deploy-an-application/README.md)
 
 ### Version specific
 

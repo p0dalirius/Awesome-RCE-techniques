@@ -1,6 +1,6 @@
 .PHONY: build img
 
-IMGNAME := test_wordpress_upload_plugin
+IMGNAME := awesome_rce_wordpress_upload_plugin
 PORT := 10080
 
 all : build
@@ -8,7 +8,7 @@ all : build
 build:
 	docker build -t $(IMGNAME):latest -f Dockerfile .
 
-start:
+start: build
 	docker run --rm -it -p $(PORT):80 $(IMGNAME)
 
 background:

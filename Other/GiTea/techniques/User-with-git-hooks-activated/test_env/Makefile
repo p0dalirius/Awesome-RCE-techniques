@@ -1,7 +1,7 @@
 .PHONY: build img
 
-IMGNAME := awesome_rce_joget_upload_plugin
-PORT := 8080
+IMGNAME := awesome_rce_gitea_git_hooks
+PORT := 10080
 
 all : build
 
