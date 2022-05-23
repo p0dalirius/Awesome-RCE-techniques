@@ -4,6 +4,8 @@ Moodle is a free and open-source learning management system written in PHP and d
 
  - https://moodle.org/
 
-## Techniques to achieve RCE with Moodle
+## Techniques to achieve RCE on Moodle
 
-### With user credentials
+### With admin credentials
+
+ - [Upload a plugin](./techniques/Upload-a-plugin/README.md)

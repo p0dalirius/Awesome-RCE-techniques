@@ -12,8 +12,6 @@ Go to "Site administration --> Install plugins" page, at http://127.0.0.1:10080/
 
 ![](./imgs/upload_and_install.png)
 
-Then install the plugin [Moodle-webshell-plugin](https://github.com/p0dalirius/Moodle-webshell-plugin/), providing an API for Remote Code Execution!
-
 ### Step 1.2: Plugin successfully uploaded
 
 Press the buttons on the various pages until you get a message stating that your plugin is successfully uploaded:
@@ -67,9 +65,9 @@ You can also download a remote file from a browser with a GET request :
 
 ### Step 3: The interactive console
 
-When your webshell is active, you can now use the interactive [console.py](https://raw.githubusercontent.com/p0dalirius/Moodle-webshell-plugin/master/console.py) to execute commands and download remote files.
+When your webshell is active, you can now use the interactive [console.py](console.py) to execute commands and download remote files.
 
 https://user-images.githubusercontent.com/79218792/169657310-dee340d6-19c0-4192-bcd1-ac8b9b29b731.mp4
 
 ## References
- - https://github.com/p0dalirius/Moodle-webshell-plugin/
+ - https://github.com/joaomatosf/jexboss
