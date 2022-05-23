@@ -18,9 +18,14 @@ All of these techniques also comes with a test environnement (usually a Docker i
 ## Techniques
 
  - [Content-Management-Systems-(CMS)](./Content-Management-Systems-(CMS)/)
-   + [**Wordpress**: (3 techniques)](./Content-Management-Systems-(CMS)/Wordpress/)
+   + [**Drupal**: (0 technique)](./Content-Management-Systems-(CMS)/Drupal/)
+   + [**Joomla**: (1 technique)](./Content-Management-Systems-(CMS)/Joomla/)
    + [**Typo3**: (1 techniques)](./Content-Management-Systems-(CMS)/Typo3/)
-     
+   + [**Wordpress**: (3 techniques)](./Content-Management-Systems-(CMS)/Wordpress/)
+   
+ - [Learning-Management-Systems-(LMS)](./Learning-Management-Systems-(LMS)/)
+   + [**Moodle**: (1 technique)](./Content-Management-Systems-(CMS)/Moodle/)
+ 
  - [Frameworks](./Frameworks/)
    + [**JBoss**: (1 technique)](./Frameworks/JBoss/)
    + [**JoGet**: (1 technique)](./Frameworks/JoGet/)

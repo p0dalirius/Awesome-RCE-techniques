@@ -30,3 +30,4 @@ To use the webshell plugin, just access this page http://TARGET/wordpress/wp-adm
 
 ## References
  - https://wordpress.org/plugins/wpterm/
+ - https://github.com/p0dalirius/Wordpress-webshell-plugin
