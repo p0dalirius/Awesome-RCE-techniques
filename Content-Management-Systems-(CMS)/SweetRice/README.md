@@ -10,6 +10,4 @@ SweeRice is a simple website management system ,it is not just free and open sou
 
  - [Modify theme to include php code](./techniques/Modify-theme-to-include-php-code/)
  - [Add an shell Ad](./techniques/Add-ADS/)
- - [Inject SQL queries](./techniques/SQL-injection/)
-
 
