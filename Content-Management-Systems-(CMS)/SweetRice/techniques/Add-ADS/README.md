@@ -1,4 +1,4 @@
-# SweetRice - Upload a plugin
+# SweetRice -Add an shell ad
 
 ## Requirements
 
@@ -14,22 +14,23 @@ Connect with a user with administrative rights on the SweetRice at [http://TARGE
 
 ### Installing the plugin
 
-Then go on the "Plugin list" page.
+Then go on the "Ads" page.
 
 ![](./imgs/upload_plugin_sweetrice.png)
 
-### Get you favorite PHP Reverse shell, zip it, and upload it
+### Get you favorite PHP Reverse shell
 
 Here we using the pentestmonkey's reverse shell (https://github.com/pentestmonkey/php-reverse-shell)
 
-![](./imgs/upload_plugin_sweetrice2.png)
+![](./imgs/add_ad.png)
 
-![](./imgs/upload_wp_term.png)
+### Using the ad
 
-### Using the plugin
+To use the webshell ad, just access this page http://TARGET/inc/ads/shell.php
 
-To use the webshell plugin, just access this page http://TARGET/wordpress/wp-admin/tools.php?page=wpterm
-
-![](./imgs/wpterm_webshell.png)
+![](./imgs/shell.png)
 
 ## References
+
+- https://www.sweetrice.xyz/
+- https://github.com/pentestmonkey/php-reverse-shell
