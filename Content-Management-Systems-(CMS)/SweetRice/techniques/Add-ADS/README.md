@@ -1,4 +1,4 @@
-# SweetRice -Add an shell ad
+# SweetRice - Add an shell ad
 
 ## Requirements
 
@@ -16,13 +16,13 @@ Connect with a user with administrative rights on the SweetRice at [http://TARGE
 
 Then go on the "Ads" page.
 
-![](./imgs/upload_plugin_sweetrice.png)
+![](./imgs/ads_page.png)
 
 ### Get you favorite PHP Reverse shell
 
 Here we using the pentestmonkey's reverse shell (https://github.com/pentestmonkey/php-reverse-shell)
 
-![](./imgs/add_ad.png)
+![](./imgs/ads_page.png)
 
 ### Using the ad
 
