@@ -22,7 +22,7 @@ Then go on the "Ads" page.
 
 Here we using the pentestmonkey's reverse shell (https://github.com/pentestmonkey/php-reverse-shell)
 
-![](./imgs/ads_page.png)
+![](./imgs/add_ad.png)
 
 ### Using the ad
 
