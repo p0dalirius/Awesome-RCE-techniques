@@ -27,6 +27,8 @@ We send a request from the page, capture it with Burp and save the request in a 
 ### Retreive data using sqlmap
 
 To get data from the database, use sqlmap with the request.
+Here we used this request **sqlmap -r request --passwords**, but you can find other options with **sqlmap -h**
+
 
 ![](./imgs/sqlmap.png)
 ![](./imgs/sqlmap2.png)
