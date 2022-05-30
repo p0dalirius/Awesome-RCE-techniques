@@ -8,7 +8,7 @@
 
 ### Accessing the dashboard
 
-Connect with a user with administrative rights on the Wordpress at [http://TARGET/as/](http://TARGET/as).
+Connect with a user with administrative rights on the SweetRice at [http://TARGET/as/](http://TARGET/as).
 
 ![](./imgs/dashboard.png)
 
@@ -20,7 +20,9 @@ Then go on the "Plugin list" page.
 
 ### Get you favorite PHP Reverse shell, zip it, and upload it
 
-![](./imgs/upload_plugin_sweetrice.png)
+Here we using the pentestmonkey's reverse shell (https://github.com/pentestmonkey/php-reverse-shell)
+
+![](./imgs/upload_plugin_sweetrice2.png)
 
 ![](./imgs/upload_wp_term.png)
 

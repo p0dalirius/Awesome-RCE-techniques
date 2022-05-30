@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/sythenv/opensource/Awesome-RCE-techniques/Awesome-RCE-techniques'
+make: Leaving directory '/home/sythenv/opensource/Awesome-RCE-techniques/Awesome-RCE-techniques'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
