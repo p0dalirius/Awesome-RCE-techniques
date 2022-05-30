@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon May 30 09:34:10 2022
+# Make data base, printed on Mon May 30 16:07:24 2022
 
 # Variables
 
@@ -17,7 +19,7 @@ LC_ALL = C
 # environment
 GTK_RC_FILES = /etc/gtk/gtkrc:/home/sythenv/.gtkrc:/home/sythenv/.config/gtkrc
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-6a6ec583-413a-4040-9e9d-e7c1b589a403.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-b57e985a-9f01-4bc9-80bd-bc7b01f4b84e.sock
 # environment
 VSCODE_CWD = /home/sythenv
 # environment
@@ -95,7 +97,7 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 13396
+VSCODE_PID = 82634
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -286,6 +288,7 @@ GNUmakefile:
 #  Failed to be updated.
 
 # files hash-table stats:
+ 
 # Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
 # VPATH Search Paths
 
@@ -298,10 +301,7 @@ GNUmakefile:
 
 # strcache performance: lookups = 22 / hit rate = 13%
 # hash-table stats:
- 
-make: *** No rule to make target 'all'.  Stop.
-
 # Load=19/8192=0%, Rehash=0, Collisions=0/22=0%
-# Finished Make data base on Mon May 30 09:34:10 2022
+# Finished Make data base on Mon May 30 16:07:24 2022
 
  
