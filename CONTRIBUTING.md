@@ -1,59 +1,65 @@
 # Introduction
 
-### Write something nice here!
+### Welcome contributiors!
 
->First off, thank you for considering contributing to Active Admin. It's people like you that make Active Admin such a great tool.
+>First off, thank you for considering contributing to Awesome-RCE-techniques. It's people like you that make Awesome-RCE-techniques such a great ressource.
 
-[source: [Active Admin](https://github.com/activeadmin/activeadmin/blob/master/CONTRIBUTING.md)] **Need more inspiration?** [1] [Read The Docs](http://read-the-docs.readthedocs.org/en/latest/contribute.html) [2] [Mustache.js](https://github.com/janl/mustache.js/#contributing)
+### Our guidelines.
 
-### Tell them why they should read your guidelines.
+>Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved. Awesome-RCE-techniques is a compilation of code exectution techniques that aims to be the most comprehansive and beginner friendly.
 
->Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, they should reciprocate that respect in addressing your issue, assessing changes, and helping you finalize your pull requests.
+### Contributions we are looking for.
 
-[source: [Hoodie](https://github.com/hoodiehq/hoodie/blob/master/CONTRIBUTING.md)]
+Documentating all the RCE techniques is a time consuming process, you can help by : 
 
-### Explain what kinds of contributions you are looking for.
+> * Reporting an application that isn't covered by the documentation. Consider adding all the informations you got to help 
+the team (github page, version, screenshot, documentation, walkthrough...)
+> * Writing a step-by-step documentation.
+> * Providing test environnment to train these Remote Code Execution (RCE) techniques.
 
-Keep an open mind! Improving documentation, bug triaging, or writing tutorials are all examples of helpful contributions that mean less work for you.
+### Contributions we are NOT looking for.
 
-> Elasticsearch is an open source project and we love to receive contributions from our community — you! There are many ways to contribute, from writing tutorials or blog posts, improving the documentation, submitting bug reports and feature requests or writing code which can be incorporated into Elasticsearch itself.
+> Please, don't use the issue tracker for support questions. If you can't figure out how to RCE an application, feel free to check this ressources : 
+> * The Hacker Recipes (https://www.thehacker.recipes/)
+> * HackTricks (https://book.hacktricks.xyz/welcome/readme)
+> * Payloads All The Things (https://github.com/swisskyrepo/PayloadsAllTheThings)
 
-[source: [Elasticsearch](https://github.com/elastic/elasticsearch/blob/master/CONTRIBUTING.md)] **Need more inspiration?** [1] [Devise](https://github.com/plataformatec/devise/wiki/Contributing) [2] [Geocoder](https://github.com/alexreisner/geocoder#known-issues) (“known issues”)
 
-### Explain contributions you are NOT looking for (if any).
+# Community Code of Conduct
+### Be respectful
 
-Again, defining this up front means less work for you. If someone ignores your guide and submits something you don’t want, you can simply close it and point to your policy.
+This community and its members treat one another with respect. Everyone can make a valuable contribution to Awesome-RCE-techniques. We may not always agree, but disagreement is no excuse for poor behavior and poor manners. We might all experience some frustration now and then, but we cannot allow that frustration to turn into a personal attack. It's important to remember that a community where people feel uncomfortable or threatened isn't a productive one. We expect members of the community to be respectful when dealing with other contributors as well as with people outside the Awesome-RCE-techniques project and with users of this documentation.
 
-> Please, don't use the issue tracker for [support questions]. Check whether the #pocoo IRC channel on Freenode can help with your issue. If your problem is not strictly Werkzeug or Flask specific, #python is generally more active. Stack Overflow is also worth considering.
+### Be collaborative
 
-[source: [Flask](https://github.com/pallets/flask/blob/master/CONTRIBUTING.rst)] **Need more inspiration?** [1] [cucumber-ruby](https://github.com/cucumber/cucumber-ruby/blob/master/CONTRIBUTING.md#about-to-create-a-new-github-issue) [2] [Read the Docs](http://read-the-docs.readthedocs.org/en/latest/open-source-philosophy.html#unsupported)
+Collaboration is central to the free software community. We should always be open to collaboration. Your work should be done
+transparently and patches should be given back to the community when they're made, not just when the distribution releases. If you wish to work on new code for existing upstream projects, at least keep those projects informed of your ideas and progress. It many not be possible to get consensus from upstream, or even from your colleagues about the correct implementation for an idea, so don't feel obliged to have that agreement before you begin, but at least keep the outside world informed of your work, and publish your work in a way that allows outsiders to test, discuss, and contribute to your efforts.
 
-# Ground Rules
-### Set expectations for behavior (yours, and theirs).
-This includes not just how to communicate with others (being respectful, considerate, etc) but also technical responsibilities (importance of testing, project dependencies, etc). Mention and link to your code of conduct, if you have one.
+### When you disagree, consult others
 
-> Responsibilities
-> * Ensure cross-platform compatibility for every change that's accepted. Windows, Mac, Debian & Ubuntu Linux.
-> * Ensure that code that goes into core meets all requirements in this checklist: https://gist.github.com/audreyr/4feef90445b9680475f2
-> * Create issues for any major changes and enhancements that you wish to make. Discuss things transparently and get community feedback.
-> * Don't add any classes to the codebase unless absolutely needed. Err on the side of using functions.
-> * Keep feature versions as small as possible, preferably one new feature per version.
-> * Be welcoming to newcomers and encourage diverse new contributors from all backgrounds. See the [Python Community Code of Conduct](https://www.python.org/psf/codeofconduct/).
+Disagreements, both political and technical, happen all the time and the Celery community is no exception. It's important that we resolve disagreements and differing views constructively and with the help of the community and community process. If you really want to go a different way, then we encourage you to make a derivative distribution or alternate set of packages that still build on the work we've done to utilize as common of a core as possible.
 
-[source: [cookiecutter](https://github.com/audreyr/cookiecutter/blob/master/CONTRIBUTING.rst)] **Need more inspiration?** [1] [Celery](https://github.com/celery/celery/blob/master/CONTRIBUTING.rst#community-code-of-conduct) [2] [geocoder](https://github.com/alexreisner/geocoder#contributing)
+### When you're unsure, ask for help
+
+Nobody knows everything, and nobody is expected to be perfect. Asking questions avoids many problems down the road, and so questions are encouraged. Those who are asked questions should be responsive and helpful. However, when asking a question, care must be taken to do so in an appropriate forum.
+
+### Step down considerately
+
+Developers on every project come and go and here is no different. When you leave or disengage from the project, in whole or in part, we ask that you do so in a way that minimizes disruption to the project. This means you should tell people you're leaving and take the proper steps to ensure that others can pick up where you left off.
+
+[source: [Celery](https://github.com/celery/celery/blob/master/CONTRIBUTING.rst#community-code-of-conduct) 
 
 # Your First Contribution
-Help people who are new to your project understand where they can be most helpful. This is also a good time to let people know if you follow a label convention for flagging beginner issues.
 
-> Unsure where to begin contributing to Atom? You can start by looking through these beginner and help-wanted issues:
+> Unsure where to begin contributing to Awesome-RCE-techniques? You can start by looking through these beginner and help-wanted issues:
 > Beginner issues - issues which should only require a few lines of code, and a test or two.
 > Help wanted issues - issues which should be a bit more involved than beginner issues.
 > Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
 
 [source: [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#your-first-code-contribution)] **Need more inspiration?** [1] [Read the Docs](http://docs.readthedocs.org/en/latest/contribute.html#contributing-to-development) [2] [Django](https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/#first-steps) (scroll down to "Guidelines" as well)
 
-### Bonus points: Add a link to a resource for people who have never contributed to open source before.
-Here are a couple of friendly tutorials you can include: http://makeapullrequest.com/ and http://www.firsttimersonly.com/
+### You never contributed to an open source project ?
+Here are a couple of friendly tutorials: http://makeapullrequest.com/ and http://www.firsttimersonly.com/
 
 > Working on your first Pull Request? You can learn how from this *free* series, [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
 
@@ -68,10 +74,6 @@ As a side note, it helps to use newcomer-friendly language throughout the rest o
 # Getting started
 ### Give them a quick walkthrough of how to submit a contribution.
 How you write this is up to you, but some things you may want to include:
-
-* Let them know if they need to sign a CLA, agree to a DCO, or get any other legal stuff out of the way
-* If tests are required for contributions, let them know, and explain how to run the tests
-* If you use anything other than GitHub to manage issues (ex. JIRA or Trac), let them know which tools they’ll need to contribute
 
 >For something that is bigger than a one or two line fix:
 
@@ -119,14 +121,12 @@ If you don’t want to use your personal contact information, set up a “securi
 ### Tell your contributors how to file a bug report.
 You can even include a template so people can just copy-paste (again, less work for you).
 
-> When filing an issue, make sure to answer these five questions:
+> When filing an issue, make sure to answer these questions:
 >
-> 1. What version of Go are you using (go version)?
-> 2. What operating system and processor architecture are you using?
-> 3. What did you do?
-> 4. What did you expect to see?
-> 5. What did you see instead?
-> General questions should go to the golang-nuts mailing list instead of the issue tracker. The gophers there will answer or ask you to file an issue if you've tripped over a bug.
+> 1. What operating system and processor architecture are you using?
+> 2. What did you do?
+> 3. What did you expect to see?
+> 4. What did you see instead?
 
 [source: [Go](https://github.com/golang/go/blob/master/CONTRIBUTING.md#filing-issues)] **Need more inspiration?** [1] [Celery](https://github.com/celery/celery/blob/master/CONTRIBUTING.rst#other-bugs ) [2] [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#reporting-bugs) (includes template)
 
@@ -157,24 +157,5 @@ Who reviews it? Who needs to sign off before it’s accepted? When should a cont
 [source: [Puppet](https://github.com/puppetlabs/puppet/blob/master/CONTRIBUTING.md#submitting-changes)] **Need more inspiration?** [1] [Meteor](https://meteor.hackpad.com/Responding-to-GitHub-Issues-SKE2u3tkSiH ) [2] [Express.js](https://github.com/expressjs/express/blob/master/Contributing.md#becoming-a-committer)
 
 # Community
-If there are other channels you use besides GitHub to discuss contributions, mention them here. You can also list the author, maintainers, and/or contributors here, or set expectations for response time.
 
-> You can chat with the core team on https://gitter.im/cucumber/cucumber. We try to have office hours on Fridays.
-
-[source: [cucumber-ruby](https://github.com/cucumber/cucumber-ruby/blob/master/CONTRIBUTING.md#talking-with-other-devs)] **Need more inspiration?**
- [1] [Chef](https://github.com/chef/chef/blob/master/CONTRIBUTING.md#-developer-office-hours) [2] [Cookiecutter](https://github.com/audreyr/cookiecutter#community)
-
-# BONUS: Code, commit message and labeling conventions
-These sections are not necessary, but can help streamline the contributions you receive.
-
-### Explain your preferred style for code, if you have any.
-
-**Need inspiration?** [1] [Requirejs](http://requirejs.org/docs/contributing.html#codestyle) [2] [Elasticsearch](https://github.com/elastic/elasticsearch/blob/master/CONTRIBUTING.md#contributing-to-the-elasticsearch-codebase)
-
-### Explain if you use any commit message conventions.
-
-**Need inspiration?** [1] [Angular](https://github.com/angular/material/blob/master/.github/CONTRIBUTING.md#submit) [2] [Node.js](https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#step-3-commit)
-
-### Explain if you use any labeling conventions for issues.
-
-**Need inspiration?** [1] [StandardIssueLabels](https://github.com/wagenet/StandardIssueLabels#standardissuelabels) [2] [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#issue-and-pull-request-labels)
+> You can chat with the team on Discord.
