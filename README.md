@@ -21,8 +21,9 @@ All of these techniques also comes with a test environnement (usually a Docker i
    + [**Drupal**: (0 technique)](./Content-Management-Systems-(CMS)/Drupal/)
    + [**Joomla**: (1 technique)](./Content-Management-Systems-(CMS)/Joomla/)
    + [**SweetRice**: (2 techniques)](./Content-Management-Systems-(CMS)/SweetRice/)
-   + [**Typo3**: (1 techniques)](./Content-Management-Systems-(CMS)/Typo3/)
+   + [**Typo3**: (1 technique)](./Content-Management-Systems-(CMS)/Typo3/)
    + [**Wordpress**: (3 techniques)](./Content-Management-Systems-(CMS)/Wordpress/)
+   + [**FuelCMS**: (1 technique)](./Content-Management-Systems-(CMS)/FuelCMS/)
    
  - [Learning-Management-Systems-(LMS)](./Learning-Management-Systems-(LMS)/)
    + [**Moodle**: (1 technique)](./Content-Management-Systems-(CMS)/Moodle/)
