@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon May 30 16:07:24 2022
+# Make data base, printed on Wed Jun  1 08:36:10 2022
 
 # Variables
 
@@ -19,7 +19,7 @@ LC_ALL = C
 # environment
 GTK_RC_FILES = /etc/gtk/gtkrc:/home/sythenv/.gtkrc:/home/sythenv/.config/gtkrc
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-b57e985a-9f01-4bc9-80bd-bc7b01f4b84e.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-93e19253-5bd3-4cdf-8eeb-618e109ccfed.sock
 # environment
 VSCODE_CWD = /home/sythenv
 # environment
@@ -79,7 +79,7 @@ LESS_TERMCAP_ue = [0m
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_AUTH_SOCK = /tmp/ssh-XXXXXXJrWl6Y/agent.1609
+SSH_AUTH_SOCK = /tmp/ssh-XXXXXXFeAT7V/agent.2521
 # default
 .SHELLFLAGS := -c
 # environment
@@ -97,13 +97,13 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 82634
+VSCODE_PID = 6526
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/syth:@/tmp/.ICE-unix/1771,unix/syth:/tmp/.ICE-unix/1771
+SESSION_MANAGER = local/syth:@/tmp/.ICE-unix/2689,unix/syth:/tmp/.ICE-unix/2689
 # automatic
 *F = $(notdir $*)
 # environment
@@ -112,6 +112,7 @@ QT_QPA_PLATFORMTHEME =
 CHROME_DESKTOP = code-url-handler.desktop
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+ 
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # environment
@@ -175,7 +176,7 @@ XDG_VTNR = 7
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 1582
+SYSTEMD_EXEC_PID = 2493
 # environment
 DISPLAY = :0
 # environment
@@ -187,7 +188,7 @@ MAKE_VERSION := 4.3
 # environment
 KDE_SESSION_UID = 1000
 # environment
-SSH_AGENT_PID = 1651
+SSH_AGENT_PID = 2563
 # environment
 _ = /usr/share/code/code
 # environment
@@ -196,6 +197,7 @@ XDG_RUNTIME_DIR = /run/user/1000
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 POWERSHELL_TELEMETRY_OPTOUT = 1
+ 
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -211,7 +213,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 VSCODE_IPC_HOOK = /run/user/1000/vscode-21e2e194-1.67.2-main.sock
 # environment
-XDG_SESSION_ID = 2
+XDG_SESSION_ID = 5
 # environment
 DOTNET_CLI_TELEMETRY_OPTOUT = 1
 # environment
@@ -243,7 +245,7 @@ GDMSESSION = lightdm-xsession
 
 # Directories
 
-# . (device 2101, inode 2851071): 11 files, no impossibilities.
+# . (device 2085, inode 2851071): 11 files, no impossibilities.
 
 # 11 files, no impossibilities in 1 directories.
 
@@ -283,12 +285,12 @@ makefile:
 # Not a target:
 GNUmakefile:
 #  Implicit rule search has been done.
+ 
 #  File does not exist.
 #  File has been updated.
 #  Failed to be updated.
 
 # files hash-table stats:
- 
 # Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
 # VPATH Search Paths
 
@@ -302,6 +304,6 @@ GNUmakefile:
 # strcache performance: lookups = 22 / hit rate = 13%
 # hash-table stats:
 # Load=19/8192=0%, Rehash=0, Collisions=0/22=0%
-# Finished Make data base on Mon May 30 16:07:24 2022
+# Finished Make data base on Wed Jun  1 08:36:10 2022
 
  
