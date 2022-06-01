@@ -3,4 +3,4 @@
   + [**Typo3**: (1 technique)](./Typo3/)
   + [**Joomla**: (1 technique)](./Joomla/)
   + [**SweetRice**: (3 techniques)](./SweetRice/)
-  + [**FuelCMS**: (0 technique)](./FuelCMS/)
+  + [**FuelCMS**: (1 technique)](./FuelCMS/)
