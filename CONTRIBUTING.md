@@ -1,47 +1,48 @@
 # Introduction
 
-### Welcome contributiors!
+### Welcome contributors!
 
->First off, thank you for considering contributing to Awesome-RCE-techniques. It's people like you that make Awesome-RCE-techniques such a great ressource.
+First off, thank you for considering contributing to Awesome-RCE-techniques. It's people like you that make Awesome-RCE-techniques such a great ressource.
 
 ### Our guidelines.
 
->Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved. Awesome-RCE-techniques is a compilation of code exectution techniques that aims to be the most comprehansive and beginner friendly.
+Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved. Awesome-RCE-techniques is a compilation of code exectution techniques that aims to be the most comprehansive and beginner friendly.
 
 ### Contributions we are looking for.
 
 Documentating all the RCE techniques is a time consuming process, you can help by : 
 
-> * Reporting an application that isn't covered by the documentation. Consider adding all the informations you got to help 
-the team (github page, version, screenshot, documentation, walkthrough...)
-> * Writing a step-by-step documentation.
-> * Providing test environnment to train these Remote Code Execution (RCE) techniques.
+ * Reporting a technique or an application that isn't covered yet. Consider adding all the informations you got to help 
+the team (github page, version, screenshot, documentation, walkthrough ...)
+ * Writing a step-by-step process of how to achieve Remote Code Execution on this application.
+ * Providing test environnment (docker) to allow everyone to try these Remote Code Execution (RCE) techniques locally.
 
 ### Contributions we are NOT looking for.
 
-> Please, don't use the issue tracker for support questions. If you can't figure out how to RCE an application, feel free to check this ressources : 
-> * The Hacker Recipes (https://www.thehacker.recipes/)
-> * HackTricks (https://book.hacktricks.xyz/welcome/readme)
-> * Payloads All The Things (https://github.com/swisskyrepo/PayloadsAllTheThings)
+Please, don't use the issue tracker for support questions. If you can't figure out how to RCE an application, feel free to check this ressources:
 
+ * The Hacker Recipes (https://www.thehacker.recipes/)
+ * HackTricks (https://book.hacktricks.xyz/welcome/readme)
+ * Payloads All The Things (https://github.com/swisskyrepo/PayloadsAllTheThings)
 
 # Community Code of Conduct
+
 ### Be respectful
 
-This community and its members treat one another with respect. Everyone can make a valuable contribution to Awesome-RCE-techniques. We may not always agree, but disagreement is no excuse for poor behavior and poor manners. We might all experience some frustration now and then, but we cannot allow that frustration to turn into a personal attack. It's important to remember that a community where people feel uncomfortable or threatened isn't a productive one. We expect members of the community to be respectful when dealing with other contributors as well as with people outside the Awesome-RCE-techniques project and with users of this documentation.
+> This community and its members treat one another with respect. Everyone can make a valuable contribution to Awesome-RCE-techniques. We may not always agree, but disagreement is no excuse for poor behavior and poor manners. We might all experience some frustration now and then, but we cannot allow that frustration to turn into a personal attack. It's important to remember that a community where people feel uncomfortable or threatened isn't a productive one. We expect members of the community to be respectful when dealing with other contributors as well as with people outside the Awesome-RCE-techniques project and with users of this documentation.
 
 ### Be collaborative
 
-Collaboration is central to the free software community. We should always be open to collaboration. Your work should be done
+> Collaboration is central to the free software community. We should always be open to collaboration. Your work should be done
 transparently and patches should be given back to the community when they're made, not just when the distribution releases. If you wish to work on new code for existing upstream projects, at least keep those projects informed of your ideas and progress. It many not be possible to get consensus from upstream, or even from your colleagues about the correct implementation for an idea, so don't feel obliged to have that agreement before you begin, but at least keep the outside world informed of your work, and publish your work in a way that allows outsiders to test, discuss, and contribute to your efforts.
 
 ### When you disagree, consult others
 
-Disagreements, both political and technical, happen all the time and the Celery community is no exception. It's important that we resolve disagreements and differing views constructively and with the help of the community and community process. If you really want to go a different way, then we encourage you to make a derivative distribution or alternate set of packages that still build on the work we've done to utilize as common of a core as possible.
+> Disagreements, both political and technical, happen all the time and the Celery community is no exception. It's important that we resolve disagreements and differing views constructively and with the help of the community and community process. If you really want to go a different way, then we encourage you to make a derivative distribution or alternate set of packages that still build on the work we've done to utilize as common of a core as possible.
 
 ### When you're unsure, ask for help
 
-Nobody knows everything, and nobody is expected to be perfect. Asking questions avoids many problems down the road, and so questions are encouraged. Those who are asked questions should be responsive and helpful. However, when asking a question, care must be taken to do so in an appropriate forum.
+> Nobody knows everything, and nobody is expected to be perfect. Asking questions avoids many problems down the road, and so questions are encouraged. Those who are asked questions should be responsive and helpful. However, when asking a question, care must be taken to do so in an appropriate forum.
 
 ### Step down considerately
 
@@ -148,14 +149,12 @@ If there is back-and-forth or signoff required, say so. Ask them to scope the fe
 [source: [Elasticsearch](https://github.com/elastic/elasticsearch/blob/master/CONTRIBUTING.md#feature-requests)] **Need more inspiration?** [1] [Hoodie](https://github.com/hoodiehq/hoodie/blob/master/CONTRIBUTING.md#feature-requests) [2] [Ember.js](https://github.com/emberjs/ember.js/blob/master/CONTRIBUTING.md#requesting-a-feature)
 
 # Code review process
+
 ### Explain how a contribution gets accepted after it’s been submitted.
+
 Who reviews it? Who needs to sign off before it’s accepted? When should a contributor expect to hear from you? How can contributors get commit access, if at all?
 
 > The core team looks at Pull Requests on a regular basis in a weekly triage meeting that we hold in a public Google Hangout. The hangout is announced in the weekly status updates that are sent to the puppet-dev list. Notes are posted to the Puppet Community community-triage repo and include a link to a YouTube recording of the hangout.
 > After feedback has been given we expect responses within two weeks. After two weeks we may close the pull request if it isn't showing any activity.
 
 [source: [Puppet](https://github.com/puppetlabs/puppet/blob/master/CONTRIBUTING.md#submitting-changes)] **Need more inspiration?** [1] [Meteor](https://meteor.hackpad.com/Responding-to-GitHub-Issues-SKE2u3tkSiH ) [2] [Express.js](https://github.com/expressjs/express/blob/master/Contributing.md#becoming-a-committer)
-
-# Community
-
-> You can chat with the team on Discord.
