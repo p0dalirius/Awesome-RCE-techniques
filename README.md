@@ -38,7 +38,11 @@ All of these techniques also comes with a test environnement (usually a Docker i
    + [**GiTea**: (1 technique)](./Other/GiTea/)
    + [**Jenkins**: (1 technique)](./Other/Jenkins/)
    + [**LimeSurvey**: (1 technique)](./Other/LimeSurvey/)
-   
+
+## Troubleshooting
+
+Report all the issues on https://github.com/p0dalirius/Awesome-RCE-techniques/issues.
+
 ## Contributors
 
 Pull requests are welcome. Feel free to open an issue if you want to add other features.
