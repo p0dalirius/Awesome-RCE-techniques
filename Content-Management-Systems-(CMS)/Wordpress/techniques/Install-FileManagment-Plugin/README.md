@@ -67,5 +67,7 @@ Connect with a user with administrative rights on the Wordpress at [http://TARGE
 - Navigate to the main URL of your target with attaching your created filename into it [http://TARGET/NewFile.php](http://TARGET/NewFile.php)
 
 - Execute the commands.
+
+
 ## References
  - https://gist.github.com/joswr1ght/22f40787de19d80d110b37fb79ac3985
