@@ -15,7 +15,7 @@ Connect with a user with administrative rights on the Wordpress at [http://TARGE
 
 ### Installing the plugin
 
-- Then go on the "Plugin" --> "Add New" page.
+- Go to "Plugin" --> "Add New" page.
 
 ![](./imgs/add_new.png)
 
@@ -30,7 +30,7 @@ Connect with a user with administrative rights on the Wordpress at [http://TARGE
 ![](./imgs/plugin_page.png)
 
 
-- Right click on the icon that is related to creating a new file --> Choose plain txt --> change filename extension from .txt to .php
+- Right click on the icon that is related to creating a new file --> Choose plain txt --> change filename extension from ```.txt``` to ```.php```
 
 ![](./imgs/creating_new_file.png)
 
