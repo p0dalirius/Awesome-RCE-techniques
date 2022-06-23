@@ -68,6 +68,7 @@ Connect with a user with administrative rights on the Wordpress at [http://TARGE
 
 - Execute the commands.
 
+![](./imgs/execute_commands.png)
 
 ## References
  - https://gist.github.com/joswr1ght/22f40787de19d80d110b37fb79ac3985
