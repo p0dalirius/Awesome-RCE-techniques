@@ -1,4 +1,4 @@
-# Drupal - Upload a plugin
+# Drupal - Upload a theme
 
 ## Requirements
 
