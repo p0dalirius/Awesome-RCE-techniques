@@ -10,3 +10,4 @@ Drupal is a free and open-source web content management system written in PHP an
 
  - [Services module unserialize to rce](./techniques/Services-module-unserialize-to-rce/README.md)
  - [Upload a plugin](./techniques/Upload-a-plugin/README.md)
+ - [Upload a Theme](./techniques/Upload-a-theme/README.md)
