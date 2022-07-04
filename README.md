@@ -38,6 +38,7 @@ All of these techniques also comes with a test environnement (usually a Docker i
    + [**GiTea**: (1 technique)](./Other/GiTea/)
    + [**Jenkins**: (1 technique)](./Other/Jenkins/)
    + [**LimeSurvey**: (1 technique)](./Other/LimeSurvey/)
+   + [**Gitlab**: (1 technique)](./Other/Gitlab)
 
 ## Troubleshooting
 
