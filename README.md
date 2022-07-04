@@ -44,4 +44,4 @@ Report all the issues on https://github.com/p0dalirius/Awesome-RCE-techniques/is
 
 ## Contributors
 
-Pull requests are welcome. Feel free to open an issue if you want to add other features.
+Pull requests are welcome. Feel free to open an issue if you want to add other Remote Code Execution (RCE) techniques.
