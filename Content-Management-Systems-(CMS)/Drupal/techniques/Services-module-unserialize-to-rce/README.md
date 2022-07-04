@@ -6,7 +6,7 @@
 
 ## Exploitation
 
-
+TODO
 
 ## References
  - https://www.ambionics.io/blog/drupal-services-module-rce

@@ -8,7 +8,7 @@ Gitlab is an open source end-to-end software development platform with built-in 
 
 ### Unauthenticated
 
- - [RCE with exiftool](techniques/CVE-2021-22205%20-%20Preauth%20RCE%20using%20ExifTool/README.md)
+ - [CVE-2021-22205 - Unauthenticated RCE with exiftool](techniques/CVE-2021-22205%20-%20Unauthenticated%20RCE%20using%20ExifTool/README.md)
 
 
 
