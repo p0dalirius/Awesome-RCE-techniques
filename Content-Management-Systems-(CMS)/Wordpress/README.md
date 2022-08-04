@@ -8,5 +8,5 @@ WordPress is a free and open-source content management system written in PHP and
 
  - [Modify theme to include php code](./techniques/Modify-theme-to-include-php-code/)
  - [Upload a plugin](./techniques/Upload-a-plugin/)
- - [Install File Managment Plugin](./techniques/Install-FileManagment-Plugin/)
+ - [Install File Management Plugin](techniques/Install-FileManagement-Plugin/)
 

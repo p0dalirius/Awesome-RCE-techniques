@@ -1,7 +1,7 @@
+# Wordpress - Install File Management Plugin 
 
-# Wordpress - Install File Managment Plugin 
+In case uploading a plugin was not possible for any reason related to custom wordpress configuration or web server configuration ( Maximum upload size ), you might be able to install file management plugin instead and create a new file that will contain your shell code.
 
-In case uploading a plugin was not possible for any reason related to custom wordpress configuration or web server configuration ( Maximum upload size ), you might be able to install file managment plugin instead and create a new file that will contain your shell code.
 ## Requirements
 
  - A valid **username and password** of a user with **admin rights** on the Wordpress.

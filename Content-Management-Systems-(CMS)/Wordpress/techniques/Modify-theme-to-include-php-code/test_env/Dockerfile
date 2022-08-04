@@ -5,6 +5,9 @@ ENV WORDPRESS_VERSION 4.6.6
 RUN apt-get -y -q update; \
     apt-get -y -q install apache2 xxd git unzip wget php php-simplexml php-gd php-ldap php-zip php-imap php-mysql php-mbstring mariadb-client mariadb-server
 
+# Username: db
+# Password: db
+# Database Name: db
 RUN service mariadb start;\
     mysql -u root -e "CREATE DATABASE db; CREATE USER 'db'@'%' IDENTIFIED BY 'db'; GRANT ALL PRIVILEGES ON *.* TO 'db'@'%' WITH GRANT OPTION; FLUSH PRIVILEGES;"
 
