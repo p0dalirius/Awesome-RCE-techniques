@@ -28,8 +28,12 @@ def find_and_parse():
 
 
 def generate_readme(awesome_rce_techniques: dict):
-    f = open("./templates/README.md.jinja2", 'r')
-    template = jinja2.Template(f.read())
+    f = open("./templates/main_README.md.jinja2", 'r')
+    main_template = jinja2.Template(f.read())
+    f.close()
+
+    f = open("./templates/category_README.md.jinja2", 'r')
+    category_template = jinja2.Template(f.read())
     f.close()
 
     # Counting total number of techniques
@@ -40,14 +44,28 @@ def generate_readme(awesome_rce_techniques: dict):
                 nb_rce_techniques += 1
 
     # Generating readme
+    print("[>] Generating 'README.md'")
     f = open('../../README.md', 'w')
-    f.write(template.render(
+    f.write(main_template.render(
         nb_rce_techniques=nb_rce_techniques,
         awesome_rce_techniques=awesome_rce_techniques,
         fct_sorted=sorted,
         fct_len=len
     ))
     f.close()
+
+    # Generating category readmes
+    for category in awesome_rce_techniques.keys():
+        print("[>] Generating '%s/README.md'" % category)
+        f = open('../../%s/README.md' % category, 'w')
+        f.write(category_template.render(
+            category=category,
+            awesome_rce_techniques=awesome_rce_techniques,
+            fct_sorted=sorted,
+            fct_len=len
+        ))
+        f.close()
+    print("[+] All done!")
 
 
 def parseArgs():

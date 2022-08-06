@@ -1,0 +1,6 @@
+# {{ category }}
+
+## Softwares
+{% for software in fct_sorted(awesome_rce_techniques[category].keys()) %}
+ - [**{{ software }}**: ({{ fct_len(awesome_rce_techniques[category][software].keys()) }} {{ "technique" if fct_len(awesome_rce_techniques[category][software].keys()) == 1 else "techniques" }})](./{{ category }}/{{ software }}/){% endfor %}
+
