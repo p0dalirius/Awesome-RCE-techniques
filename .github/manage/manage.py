@@ -37,10 +37,18 @@ def generate_readme(awesome_rce_techniques: dict):
 
     # Counting total number of techniques
     nb_rce_techniques = 0
+    wip = {}
     for category in awesome_rce_techniques.keys():
         for software in awesome_rce_techniques[category].keys():
             for technique in awesome_rce_techniques[category][software].keys():
                 nb_rce_techniques += 1
+                if awesome_rce_techniques[category][software][technique]["work_in_progress"] == True:
+                    if category not in wip.keys():
+                        wip[category] = {}
+                    if software not in wip[category].keys():
+                        wip[category][software] = {}
+                    if technique not in wip[category][software].keys():
+                        wip[category][software][technique] = awesome_rce_techniques[category][software][technique]
 
     # Generating readme
     print("[>] Generating 'README.md'")
@@ -48,6 +56,7 @@ def generate_readme(awesome_rce_techniques: dict):
     f.write(main_template.render(
         nb_rce_techniques=nb_rce_techniques,
         awesome_rce_techniques=awesome_rce_techniques,
+        wip=wip,
         fct_sorted=sorted,
         fct_len=len
     ))

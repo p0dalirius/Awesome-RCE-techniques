@@ -45,6 +45,24 @@ The goal of this project is to provide an OpenSource knowledge database of all t
 
 
 
+## Work in progress
+
+These techniques are a work in progress. You can help us finish them by opening a pull request!
+
+
+ - [Frameworks](./Frameworks/)
+   + 🔧 [**JBoss**: JBoss - Upload a plugin](./Frameworks/JBoss/Upload-a-plugin/)
+
+   + 🔧 [**Tomcat**: Apache Tomcat - CVE-2017-12615 - PUT a jsp file](./Frameworks/Tomcat/CVE-2017-12615_-_PUT_a_jsp_file/)
+
+   + 🔧 [**WildFly**: WildFly - Deploy an Application](./Frameworks/WildFly/Deploy-an-application/)
+
+
+ - [Other](./Other/)
+   + 🔧 [**PHP**: PHP 8.1.0-dev - 'User-Agentt' Remote Code Execution](./Other/PHP/PHP-8.1.0-dev-User-Agentt-RCE/)
+
+
+
 ## Troubleshooting
 
 Report all the issues on https://github.com/p0dalirius/Awesome-RCE-techniques/issues.

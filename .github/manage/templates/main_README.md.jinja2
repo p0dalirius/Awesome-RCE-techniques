@@ -21,6 +21,16 @@ The goal of this project is to provide an OpenSource knowledge database of all t
 
 {% endfor %}
 
+## Work in progress
+
+These techniques are a work in progress. You can help us finish them by opening a pull request!
+
+{% for category in fct_sorted(wip.keys()) %}
+ - [{{ category }}](./{{ category }}/){% for software in fct_sorted(wip[category].keys()) %}{% for technique in fct_sorted(wip[category][software].keys()) %}
+   + 🔧 [**{{ software }}**: {{ wip[category][software][technique]["name"] }}](./{{ category }}/{{ software }}/{{ technique }}/)
+{% endfor %}{% endfor %}
+{% endfor %}
+
 ## Troubleshooting
 
 Report all the issues on https://github.com/p0dalirius/Awesome-RCE-techniques/issues.
