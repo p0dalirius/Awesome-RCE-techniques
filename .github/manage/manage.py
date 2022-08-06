@@ -7,7 +7,6 @@
 import argparse
 import json
 import glob
-
 import jinja2
 
 

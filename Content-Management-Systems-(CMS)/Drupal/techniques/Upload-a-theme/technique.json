@@ -1,3 +1,7 @@
 {
-  "name": "Drupal - Upload a theme"
+    "name": "Drupal - Upload a theme",
+    "work_in_progress": false,
+    "references": [
+        "https://www.drupal.org/project/zen"
+    ]
 }

@@ -1,3 +1,8 @@
 {
-  "name": "Apache Tomcat - Deploy an Application"
+    "name": "Apache Tomcat - Deploy an Application",
+    "work_in_progress": false,
+    "references": [
+        "https://tomcat.apache.org/",
+        "https://github.com/p0dalirius/Tomcat-application-webshell/"
+    ]
 }

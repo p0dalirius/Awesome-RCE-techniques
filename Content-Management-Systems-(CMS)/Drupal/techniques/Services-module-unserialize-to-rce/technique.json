@@ -1,3 +1,8 @@
 {
-  "name": "Drupal 7.x  - Services module unserialize() to RCE"
+    "name": "Drupal 7.x  - Services module unserialize() to RCE",
+    "work_in_progress": false,
+    "references": [
+        "https://www.ambionics.io/blog/drupal-services-module-rce",
+        "https://www.drupal.org/node/2858847"
+    ]
 }

@@ -1,3 +1,7 @@
 {
-  "name": "JoGet - Upload a plugin"
+    "name": "JoGet - Upload a plugin",
+    "work_in_progress": false,
+    "references": [
+        "https://github.com/p0dalirius/JoGet-plugin-webshell"
+    ]
 }

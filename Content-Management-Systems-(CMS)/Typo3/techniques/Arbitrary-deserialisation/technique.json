@@ -1,3 +1,7 @@
 {
-  "name": "Typo3 - Arbitrary deserialisation"
+    "name": "Typo3 - Arbitrary deserialisation",
+    "work_in_progress": false,
+    "references": [
+        "https://www.synacktiv.com/publications/typo3-leak-to-remote-code-execution.html"
+    ]
 }

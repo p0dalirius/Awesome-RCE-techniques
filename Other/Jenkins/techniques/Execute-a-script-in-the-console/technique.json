@@ -1,3 +1,7 @@
 {
-  "name": "Jenkins - Execute a script in the console"
+    "name": "Jenkins - Execute a script in the console",
+    "work_in_progress": false,
+    "references": [
+        "https://github.com/p0dalirius/LimeSurvey-plugin-webshell"
+    ]
 }

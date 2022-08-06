@@ -1,3 +1,8 @@
 {
-  "name": "SweetRice - Add an shell ad"
+    "name": "SweetRice - Add an shell ad",
+    "work_in_progress": false,
+    "references": [
+        "https://www.sweetrice.xyz/",
+        "https://github.com/pentestmonkey/php-reverse-shell"
+    ]
 }

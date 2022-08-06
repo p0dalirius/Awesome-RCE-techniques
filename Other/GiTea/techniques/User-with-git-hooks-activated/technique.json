@@ -1,3 +1,8 @@
 {
-  "name": "GiTea - User with git hooks activated"
+    "name": "GiTea - User with git hooks activated",
+    "work_in_progress": false,
+    "references": [
+        "https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce",
+        "https://github.com/go-gitea/gitea/pull/13058"
+    ]
 }

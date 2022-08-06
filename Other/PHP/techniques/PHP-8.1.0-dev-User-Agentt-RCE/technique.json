@@ -1,3 +1,8 @@
 {
-  "name": "PHP 8.1.0-dev - 'User-Agentt' Remote Code Execution"
+    "name": "PHP 8.1.0-dev - 'User-Agentt' Remote Code Execution",
+    "work_in_progress": false,
+    "references": [
+        "https://flast101.github.io/php-8.1.0-dev-backdoor-rce/",
+        "https://news-web.php.net/php.internals/113838"
+    ]
 }

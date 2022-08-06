@@ -1,3 +1,8 @@
 {
-  "name": "Wordpress - Modify theme to include PHP code"
+    "name": "Wordpress - Modify theme to include PHP code",
+    "work_in_progress": false,
+    "references": [
+        "https://wordpress.org/",
+        "https://podalirius.net/en/articles/unix-reverse-shells-cheatsheet/#php"
+    ]
 }

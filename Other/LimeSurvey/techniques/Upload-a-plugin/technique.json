@@ -1,3 +1,7 @@
 {
-  "name": "LimeSurvey - Upload a plugin"
+    "name": "LimeSurvey - Upload a plugin",
+    "work_in_progress": false,
+    "references": [
+        "https://github.com/p0dalirius/LimeSurvey-plugin-webshell"
+    ]
 }

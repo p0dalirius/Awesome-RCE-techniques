@@ -1,3 +1,8 @@
 {
-  "name": "Wordpress - Upload a plugin"
+    "name": "Wordpress - Upload a plugin",
+    "work_in_progress": false,
+    "references": [
+        "https://wordpress.org/plugins/wpterm/",
+        "https://github.com/p0dalirius/Wordpress-webshell-plugin"
+    ]
 }

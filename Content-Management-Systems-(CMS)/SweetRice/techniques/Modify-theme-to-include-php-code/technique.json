@@ -1,3 +1,8 @@
 {
-  "name": "SweetRice - Modify theme to include PHP code"
+    "name": "SweetRice - Modify theme to include PHP code",
+    "work_in_progress": false,
+    "references": [
+        "https://www.sweetrice.xyz/",
+        "https://podalirius.net/en/articles/unix-reverse-shells-cheatsheet/#php"
+    ]
 }
