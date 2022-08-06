@@ -1,8 +1,8 @@
-#  - Deploy an App
+# Joomla - Upload a plugin
 
 ## Requirements
 
- - A valid **username and password** of a user with **admin rights** on WildFly.
+ - A valid **username and password** of a user with **admin rights** on Joomla.
 
 ## Exploitation
 

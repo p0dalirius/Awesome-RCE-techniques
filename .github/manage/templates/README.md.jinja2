@@ -1,0 +1,31 @@
+# Awesome RCE techniques
+
+<p align="center">
+  Awesome list of techniques to achieve Remote Code Execution (RCE) on various apps!
+  <br>
+  <img alt="Number of RCE techniques" src="https://img.shields.io/badge/techniques-{{ nb_rce_techniques }}-brightgreen">
+  <a href="https://twitter.com/intent/follow?screen_name=podalirius_" title="Follow"><img src="https://img.shields.io/twitter/follow/podalirius_?label=Podalirius&style=social"></a>
+  <a href="https://www.youtube.com/c/Podalirius_?sub_confirmation=1" title="Subscribe"><img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCF_x5O7CSfr82AfNVTKOv_A?style=social"></a>
+  <br>
+</p>
+
+## Goal of this project
+
+The goal of this project is to provide an OpenSource knowledge database of all the techniques to achieve Remote Code Execution (RCE) on various applications. All of these techniques also comes with a test environnement (usually a Docker image) for you to train these techniques.
+
+## Techniques
+
+{% for category in fct_sorted(awesome_rce_techniques.keys()) %}
+ - [{{ category }}](./{{ category }}/)
+{% for software in fct_sorted(awesome_rce_techniques[category].keys()) %}
+   + [**{{ software }}**: ({{ fct_len(awesome_rce_techniques[category][software].keys()) }} {{ "technique" if fct_len(awesome_rce_techniques[category][software].keys()) == 1 else "techniques" }})](./{{ category }}/{{ software }}/)
+{% endfor %}
+{% endfor %}
+
+## Troubleshooting
+
+Report all the issues on https://github.com/p0dalirius/Awesome-RCE-techniques/issues.
+
+## Contributors
+
+Pull requests are welcome. Feel free to open an issue if you want to add other Remote Code Execution (RCE) techniques.
