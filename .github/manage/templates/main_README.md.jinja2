@@ -15,9 +15,9 @@ The goal of this project is to provide an OpenSource knowledge database of all t
 
 ## Techniques
 
-{% for category in fct_sorted(awesome_rce_techniques.keys()) %}
- - [{{ category }}](./{{ category }}/){% for software in fct_sorted(awesome_rce_techniques[category].keys()) %}
-   + [**{{ software }}**: ({{ fct_len(awesome_rce_techniques[category][software].keys()) }} {{ "technique" if fct_len(awesome_rce_techniques[category][software].keys()) == 1 else "techniques" }})](./{{ category }}/{{ software }}/){% endfor %}
+{% for category in fct_sorted(not_wip.keys()) %}
+ - [{{ category }}](./{{ category }}/){% for software in fct_sorted(not_wip[category].keys()) %}
+   + [**{{ software }}**: ({{ fct_len(not_wip[category][software].keys()) }} {{ "technique" if fct_len(not_wip[category][software].keys()) == 1 else "techniques" }})](./{{ category }}/{{ software }}/){% endfor %}
 
 {% endfor %}
 

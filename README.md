@@ -26,10 +26,8 @@ The goal of this project is to provide an OpenSource knowledge database of all t
 
 
  - [Frameworks](./Frameworks/)
-   + [**JBoss**: (1 technique)](./Frameworks/JBoss/)
    + [**JoGet**: (1 technique)](./Frameworks/JoGet/)
-   + [**Tomcat**: (2 techniques)](./Frameworks/Tomcat/)
-   + [**WildFly**: (1 technique)](./Frameworks/WildFly/)
+   + [**Tomcat**: (1 technique)](./Frameworks/Tomcat/)
 
 
  - [Learning-Management-Systems-(LMS)](./Learning-Management-Systems-(LMS)/)
@@ -41,7 +39,6 @@ The goal of this project is to provide an OpenSource knowledge database of all t
    + [**Gitlab**: (1 technique)](./Other/Gitlab/)
    + [**Jenkins**: (1 technique)](./Other/Jenkins/)
    + [**LimeSurvey**: (1 technique)](./Other/LimeSurvey/)
-   + [**PHP**: (1 technique)](./Other/PHP/)
 
 
 
