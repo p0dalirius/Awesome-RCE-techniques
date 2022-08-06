@@ -17,46 +17,30 @@ The goal of this project is to provide an OpenSource knowledge database of all t
 
 
  - [Content-Management-Systems-(CMS)](./Content-Management-Systems-(CMS)/)
-
    + [**Drupal**: (3 techniques)](./Content-Management-Systems-(CMS)/Drupal/)
-
    + [**FuelCMS**: (1 technique)](./Content-Management-Systems-(CMS)/FuelCMS/)
-
    + [**Joomla**: (1 technique)](./Content-Management-Systems-(CMS)/Joomla/)
-
    + [**SweetRice**: (2 techniques)](./Content-Management-Systems-(CMS)/SweetRice/)
-
    + [**Typo3**: (1 technique)](./Content-Management-Systems-(CMS)/Typo3/)
-
    + [**Wordpress**: (3 techniques)](./Content-Management-Systems-(CMS)/Wordpress/)
 
 
  - [Frameworks](./Frameworks/)
-
    + [**JBoss**: (1 technique)](./Frameworks/JBoss/)
-
    + [**JoGet**: (1 technique)](./Frameworks/JoGet/)
-
    + [**Tomcat**: (2 techniques)](./Frameworks/Tomcat/)
-
    + [**WildFly**: (1 technique)](./Frameworks/WildFly/)
 
 
  - [Learning-Management-Systems-(LMS)](./Learning-Management-Systems-(LMS)/)
-
    + [**Moodle**: (1 technique)](./Learning-Management-Systems-(LMS)/Moodle/)
 
 
  - [Other](./Other/)
-
    + [**GiTea**: (1 technique)](./Other/GiTea/)
-
    + [**Gitlab**: (1 technique)](./Other/Gitlab/)
-
    + [**Jenkins**: (1 technique)](./Other/Jenkins/)
-
    + [**LimeSurvey**: (1 technique)](./Other/LimeSurvey/)
-
    + [**PHP**: (1 technique)](./Other/PHP/)
 
 
