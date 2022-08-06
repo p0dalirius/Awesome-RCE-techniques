@@ -26,8 +26,8 @@ The goal of this project is to provide an OpenSource knowledge database of all t
 
 
  - [Frameworks](./Frameworks/)
+   + [**Apache-Tomcat**: (1 technique)](./Frameworks/Apache-Tomcat/)
    + [**JoGet**: (1 technique)](./Frameworks/JoGet/)
-   + [**Tomcat**: (1 technique)](./Frameworks/Tomcat/)
 
 
  - [Learning-Management-Systems-(LMS)](./Learning-Management-Systems-(LMS)/)
@@ -48,9 +48,9 @@ These techniques are a work in progress. You can help us finish them by opening 
 
 
  - [Frameworks](./Frameworks/)
-   + 🔧 [**JBoss**: JBoss - Upload a plugin](./Frameworks/JBoss/Upload-a-plugin/)
+   + 🔧 [**Apache-Tomcat**: Apache Tomcat - CVE-2017-12615 - PUT a jsp file](./Frameworks/Apache-Tomcat/CVE-2017-12615_-_PUT_a_jsp_file/)
 
-   + 🔧 [**Tomcat**: Apache Tomcat - CVE-2017-12615 - PUT a jsp file](./Frameworks/Tomcat/CVE-2017-12615_-_PUT_a_jsp_file/)
+   + 🔧 [**JBoss**: JBoss - Upload a plugin](./Frameworks/JBoss/Upload-a-plugin/)
 
    + 🔧 [**WildFly**: WildFly - Deploy an Application](./Frameworks/WildFly/Deploy-an-application/)
 
