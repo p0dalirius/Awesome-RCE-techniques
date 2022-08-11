@@ -1,6 +1,6 @@
 {
     "name": "JBoss - Upload a plugin",
-    "work_in_progress": true,
+    "work_in_progress": false,
     "references": [
         "https://github.com/joaomatosf/jexboss"
     ]

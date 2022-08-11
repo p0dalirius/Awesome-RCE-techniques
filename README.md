@@ -26,8 +26,10 @@ The goal of this project is to provide an OpenSource knowledge database of all t
 
 
  - [Frameworks](./Frameworks/)
-   + [**Apache-Tomcat**: (1 technique)](./Frameworks/Apache-Tomcat/)
+   + [**Apache-Tomcat**: (2 techniques)](./Frameworks/Apache-Tomcat/)
+   + [**JBoss**: (1 technique)](./Frameworks/JBoss/)
    + [**JoGet**: (1 technique)](./Frameworks/JoGet/)
+   + [**WildFly**: (1 technique)](./Frameworks/WildFly/)
 
 
  - [Learning-Management-Systems-(LMS)](./Learning-Management-Systems-(LMS)/)
@@ -39,26 +41,14 @@ The goal of this project is to provide an OpenSource knowledge database of all t
    + [**Gitlab**: (1 technique)](./Other/Gitlab/)
    + [**Jenkins**: (1 technique)](./Other/Jenkins/)
    + [**LimeSurvey**: (1 technique)](./Other/LimeSurvey/)
+   + [**PHP**: (1 technique)](./Other/PHP/)
+   + [**Webmin**: (1 technique)](./Other/Webmin/)
 
 
 
 ## Work in progress
 
 These techniques are a work in progress. You can help us finish them by opening a pull request!
-
-
- - [Frameworks](./Frameworks/)
-   + 🔧 [**Apache-Tomcat**: Apache Tomcat - CVE-2017-12615 - PUT a jsp file](./Frameworks/Apache-Tomcat/techniques/CVE-2017-12615_-_PUT_a_jsp_file/)
-
-   + 🔧 [**JBoss**: JBoss - Upload a plugin](./Frameworks/JBoss/techniques/Upload-a-plugin/)
-
-   + 🔧 [**WildFly**: WildFly - Deploy an Application](./Frameworks/WildFly/techniques/Deploy-an-application/)
-
-
- - [Other](./Other/)
-   + 🔧 [**PHP**: PHP 8.1.0-dev - 'User-Agentt' Remote Code Execution](./Other/PHP/techniques/PHP-8.1.0-dev-User-Agentt-RCE/)
-
-   + 🔧 [**Webmin**: PHP 8.1.0-dev - 'User-Agentt' Remote Code Execution](./Other/Webmin/techniques/CVE-2022-36446_-_/)
 
 
 
