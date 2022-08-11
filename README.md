@@ -3,7 +3,7 @@
 <p align="center">
   Awesome list of techniques to achieve Remote Code Execution (RCE) on various apps!
   <br>
-  <img alt="Number of RCE techniques" src="https://img.shields.io/badge/techniques-23-brightgreen">
+  <img alt="Number of RCE techniques" src="https://img.shields.io/badge/techniques-24-brightgreen">
   <a href="https://twitter.com/intent/follow?screen_name=podalirius_" title="Follow"><img src="https://img.shields.io/twitter/follow/podalirius_?label=Podalirius&style=social"></a>
   <a href="https://www.youtube.com/c/Podalirius_?sub_confirmation=1" title="Subscribe"><img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCF_x5O7CSfr82AfNVTKOv_A?style=social"></a>
   <br>
@@ -49,6 +49,10 @@ The goal of this project is to provide an OpenSource knowledge database of all t
 ## Work in progress
 
 These techniques are a work in progress. You can help us finish them by opening a pull request!
+
+
+ - [Other](./Other/)
+   + 🔧 [**Rocket.Chat**: Rocket.Chat - Add an integration script](./Other/Rocket.Chat/techniques/Add-an-integration-script/)
 
 
 

@@ -1,0 +1,7 @@
+{
+    "name": "Rocket.Chat - Add an integration script",
+    "work_in_progress": true,
+    "references": [
+        "https://github.com/p0dalirius/LimeSurvey-plugin-webshell"
+    ]
+}
