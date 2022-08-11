@@ -3,7 +3,7 @@
 <p align="center">
   Awesome list of techniques to achieve Remote Code Execution (RCE) on various apps!
   <br>
-  <img alt="Number of RCE techniques" src="https://img.shields.io/badge/techniques-22-brightgreen">
+  <img alt="Number of RCE techniques" src="https://img.shields.io/badge/techniques-23-brightgreen">
   <a href="https://twitter.com/intent/follow?screen_name=podalirius_" title="Follow"><img src="https://img.shields.io/twitter/follow/podalirius_?label=Podalirius&style=social"></a>
   <a href="https://www.youtube.com/c/Podalirius_?sub_confirmation=1" title="Subscribe"><img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCF_x5O7CSfr82AfNVTKOv_A?style=social"></a>
   <br>
@@ -48,15 +48,17 @@ These techniques are a work in progress. You can help us finish them by opening 
 
 
  - [Frameworks](./Frameworks/)
-   + 🔧 [**Apache-Tomcat**: Apache Tomcat - CVE-2017-12615 - PUT a jsp file](./Frameworks/Apache-Tomcat/CVE-2017-12615_-_PUT_a_jsp_file/)
+   + 🔧 [**Apache-Tomcat**: Apache Tomcat - CVE-2017-12615 - PUT a jsp file](./Frameworks/Apache-Tomcat/techniques/CVE-2017-12615_-_PUT_a_jsp_file/)
 
-   + 🔧 [**JBoss**: JBoss - Upload a plugin](./Frameworks/JBoss/Upload-a-plugin/)
+   + 🔧 [**JBoss**: JBoss - Upload a plugin](./Frameworks/JBoss/techniques/Upload-a-plugin/)
 
-   + 🔧 [**WildFly**: WildFly - Deploy an Application](./Frameworks/WildFly/Deploy-an-application/)
+   + 🔧 [**WildFly**: WildFly - Deploy an Application](./Frameworks/WildFly/techniques/Deploy-an-application/)
 
 
  - [Other](./Other/)
-   + 🔧 [**PHP**: PHP 8.1.0-dev - 'User-Agentt' Remote Code Execution](./Other/PHP/PHP-8.1.0-dev-User-Agentt-RCE/)
+   + 🔧 [**PHP**: PHP 8.1.0-dev - 'User-Agentt' Remote Code Execution](./Other/PHP/techniques/PHP-8.1.0-dev-User-Agentt-RCE/)
+
+   + 🔧 [**Webmin**: PHP 8.1.0-dev - 'User-Agentt' Remote Code Execution](./Other/Webmin/techniques/CVE-2022-36446_-_/)
 
 
 

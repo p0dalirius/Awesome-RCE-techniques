@@ -27,7 +27,7 @@ These techniques are a work in progress. You can help us finish them by opening 
 
 {% for category in fct_sorted(wip.keys()) %}
  - [{{ category }}](./{{ category }}/){% for software in fct_sorted(wip[category].keys()) %}{% for technique in fct_sorted(wip[category][software].keys()) %}
-   + 🔧 [**{{ software }}**: {{ wip[category][software][technique]["name"] }}](./{{ category }}/{{ software }}/{{ technique }}/)
+   + 🔧 [**{{ software }}**: {{ wip[category][software][technique]["name"] }}](./{{ category }}/{{ software }}/techniques/{{ technique }}/)
 {% endfor %}{% endfor %}
 {% endfor %}
 

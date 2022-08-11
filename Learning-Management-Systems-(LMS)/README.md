@@ -2,4 +2,4 @@
 
 ## Softwares
 
- - [**Moodle**: (1 technique)](./Learning-Management-Systems-(LMS)/Moodle/)
+ - [**Moodle**: (1 technique)](./Moodle/)
