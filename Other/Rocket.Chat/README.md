@@ -7,8 +7,8 @@ Rocket.Chat is an open-source fully customizable communications platform develop
 
 ## Techniques to achieve RCE with RockChat
 
-### Version specific
+### With admin credentials
 
- - [e](techniques/Add-an-integration-script/README.md)
+ - [Add an integration script](techniques/Add-an-integration-script/README.md)
 
 
