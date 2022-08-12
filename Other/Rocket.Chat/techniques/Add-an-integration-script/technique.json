@@ -1,7 +1,9 @@
 {
     "name": "Rocket.Chat - Add an integration script",
-    "work_in_progress": true,
+    "work_in_progress": false,
     "references": [
-        "https://github.com/p0dalirius/LimeSurvey-plugin-webshell"
+        "https://docs.rocket.chat/quick-start/deploying-rocket.chat/rapid-deployment-methods/docker-and-docker-compose/docker-containers/available-images",
+        "https://hackerone.com/reports/1130721",
+        "https://blog.sonarsource.com/nosql-injections-in-rocket-chat/"
     ]
 }
