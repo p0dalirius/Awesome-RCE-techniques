@@ -8,7 +8,7 @@ all : build
 build:
 	docker build -t $(IMGNAME):latest -f Dockerfile .
 
-start:
+start: build
 	docker run --rm -it -p $(PORT):10000 $(IMGNAME)
 
 background:
