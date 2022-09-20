@@ -7,7 +7,7 @@ Gestionnaire Libre de Parc Informatique (GLPI) is a Free Asset and IT Management
 
 ## Techniques to achieve RCE with GLPI
 
-### Version specific
+### Latest version and all versions above GLPI 0.90
 
  - [Install shellcommand Plugin - GLPI Remote Code Execution (RCE) (Authenticated)](techniques/GLPI_shellcommand_plugin_authenticated_rce/README.md)
 
