@@ -43,6 +43,7 @@ The goal of this project is to provide an OpenSource knowledge database of all t
    + [**LimeSurvey**: (1 technique)](./Other/LimeSurvey/)
    + [**PHP**: (1 technique)](./Other/PHP/)
    + [**Webmin**: (1 technique)](./Other/Webmin/)
+   + [**GLPI**: (1 technique)](./Other/GLPI/)
 
 
 
