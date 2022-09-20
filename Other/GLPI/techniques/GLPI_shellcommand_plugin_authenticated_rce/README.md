@@ -16,7 +16,8 @@ You need to be super administrator of glpi to add the plugin and perform the rce
 The technique consists in using a plugin which allows to execute commands on the system like ping or tracert and to divert it towards the reverse shell for example.
 
 
-Initially you must add a key "GLPI network" in the general parameters of glpi what gives the rights to add extensions, you have just to create an account for free on the site of glpi and to copy paste the key.
+Initially you must add a key "GLPI network" in the general parameters of glpi what gives the rights to add extensions, you have just to create an account for free on the site of glpi and to copy paste the key.<br>
+https://services.glpi-network.com/register
 
 ![](https://i.imgur.com/CuNnAFw.png)
 
