@@ -34,7 +34,7 @@ The goal of this project is to provide an OpenSource knowledge database of all t
 
  - [Learning-Management-Systems-(LMS)](./Learning-Management-Systems-(LMS)/)
    + [**Moodle**: (1 technique)](./Learning-Management-Systems-(LMS)/Moodle/)
-
+   
 
  - [Other](./Other/)
    + [**GiTea**: (1 technique)](./Other/GiTea/)
@@ -50,8 +50,6 @@ The goal of this project is to provide an OpenSource knowledge database of all t
 ## Work in progress
 
 These techniques are a work in progress. You can help us finish them by opening a pull request!
-
-
 
 ## Troubleshooting
 

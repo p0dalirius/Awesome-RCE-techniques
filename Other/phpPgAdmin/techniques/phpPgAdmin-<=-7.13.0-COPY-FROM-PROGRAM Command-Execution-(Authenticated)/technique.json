@@ -1,0 +1,7 @@
+{
+    "name": "phpPgAdmin 7.13.0 - COPY FROM PROGRAM Command Execution (Authenticated)",
+    "work_in_progress": true,
+    "references": [
+        "https://github.com/phppgadmin/phppgadmin"
+    ]
+}
