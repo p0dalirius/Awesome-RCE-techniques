@@ -42,18 +42,14 @@ The goal of this project is to provide an OpenSource knowledge database of all t
    + [**Jenkins**: (1 technique)](./Other/Jenkins/)
    + [**LimeSurvey**: (1 technique)](./Other/LimeSurvey/)
    + [**PHP**: (1 technique)](./Other/PHP/)
+   + [**Rocket.Chat**: (1 technique)](./Other/Rocket.Chat/)
    + [**Webmin**: (1 technique)](./Other/Webmin/)
-   + [**GLPI**: (1 technique)](./Other/GLPI/)
 
 
 
 ## Work in progress
 
 These techniques are a work in progress. You can help us finish them by opening a pull request!
-
-
- - [Other](./Other/)
-   + 🔧 [**Rocket.Chat**: Rocket.Chat - Add an integration script](./Other/Rocket.Chat/techniques/Add-an-integration-script/)
 
 
 

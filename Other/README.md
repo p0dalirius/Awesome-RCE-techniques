@@ -9,4 +9,3 @@
  - [**PHP**: (1 technique)](./PHP/)
  - [**Rocket.Chat**: (1 technique)](./Rocket.Chat/)
  - [**Webmin**: (1 technique)](./Webmin/)
- - [**GLPI**: (1 technique)](./GLPI/)
